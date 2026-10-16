@@ -1,0 +1,17 @@
+.env
+.env.*
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Generated activations, checkpoints, logs, and recomputed reports.
+artifacts/
+*.pt
+*.bin
+*.safetensors
+wandb/
